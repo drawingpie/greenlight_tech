@@ -120,6 +120,11 @@ h2 {
   line-height: 0.2;
   white-space: nowrap;
 }
+.dot {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
 
 .main-title2 {
   color: #fff;
