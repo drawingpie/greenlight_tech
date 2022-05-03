@@ -2,14 +2,14 @@
 
 html,
 body {
-  scroll-behavior: smooth;
   /* max-width: 100%; */
   width: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
   height: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 a {
@@ -45,7 +45,7 @@ img {
 /* 헤더 */
 
 .navi {
-  width: 100%;
+  width: 100vw;
   position: sticky;
   top: 0;
   left: 0;
@@ -61,9 +61,9 @@ img {
 .navi .inner a img {
   display: inline-block;
   padding-top: 10px;
-  ;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  height:auto;
 }
 
 .navi .inner .navlist {
@@ -78,7 +78,6 @@ img {
   color: #000;
   font-size: 20px;
   margin-right: 40px;
-
 }
 
 .navi .inner li a:hover {
@@ -104,7 +103,6 @@ img {
 #section00 .container_wrap {
   font-size: 0;
 }
-
 
 #section00 .container_wrap .main-title-wrap {
   position: absolute;
@@ -134,10 +132,10 @@ h2 {
 .main-title3 {
   display: block;
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin-top: 400px;
+  margin-top: 410px;
 }
 
 .main-title4 {
@@ -172,8 +170,6 @@ h2 {
   color: #fff;
   line-height: 2;
 }
-
-
 
 .mobile_nav_container {
   display: none;
