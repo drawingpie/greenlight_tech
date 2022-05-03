@@ -321,27 +321,21 @@ h2 {
     line-height: 0.5;
   }
 
+  .dot {
+    font-size: 20px;
+  }
+
   .main-title2 {
     font-size: 16px;
   }
 
   .main-title3 {
-    display: block;
-    color: #fff;
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
     margin-top: 550px;
   }
 
   .main-title4 {
-    display: block;
-    color: #fff;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin-top: 80px;
-    font-weight: 700;
   }
 
   /* 푸터 */
